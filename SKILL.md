@@ -1,6 +1,6 @@
 ---
 name: sushiro
-description: Query Sushiro China (寿司郎/壽司郎) store list, single-store detail, and live wait/queue status via the wechat-mini-program backend. Use when the user asks about 寿司郎/sushiro 排队/等位/wait/queue, wants to compare wait times across cities or areas, look up a specific Sushiro store by id/name/area, or fetch the official areas list. Only covers mainland China stores.
+description: 查询寿司郎（Sushiro / 壽司郎）中国大陆全国 100+ 门店的实时排队 / 等位情况。通过微信小程序后端拉取门店列表、单店详情、各城市排队榜、区域筛选、按经纬度排距离。当用户问"寿司郎排队 / 等位 / 还要等多久 / 哪家人少 / 几桌在等"，对比城市或商圈的等位状况，按门店 id / 店名 / 区域查找具体门店，或获取官方城市 / 区域列表时使用。底层是 curl + jq，无需 API key。仅覆盖中国大陆门店，不含日本 / 港澳台。
 ---
 
 # Sushiro Queue Skill
